@@ -1,0 +1,80 @@
+body{
+    color: white;
+    background-color: skyblue;
+    font-family: Verdana;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.logo {
+    color: rgb(238, 255, 5);
+    font-family: Monotype Corsiva;
+    text-transform: lowercase;
+    text-decoration: underline gray;
+}
+.logo  span{
+    font-family: mistral;
+    color: tomato;
+}
+
+h3{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    width: 20%; 
+    position: relative;
+    left: 42%;
+    letter-spacing: 4px;
+}
+input{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    border: none;
+    background: none;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: monospace;
+}
+.p{
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    left: 42%;
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.desc{
+    font-size: 30px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin: 10%; */
+    margin: 5%;
+}
+.right{
+    border-bottom: 2px solid yellow;
+    background-color: rgb(11, 165, 11);
+}
+.wrong{
+    background-color: rgb(197, 31, 31);
+}
+
+u{
+    color:rgb(86, 37, 223);
+}
+.jumb{
+    color: yellow;
+    font-family: Monotype Corsiva;
+}
+.word{
+    font-family: mistral;
+    color: tomato;
+}
+button{
+    border: none;
+    background-color: yellowgreen;
+    width: 20%;
+    height: 10%;
+}

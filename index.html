@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>JumbWord - randomize your brain</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="../vue.js"></script>
+        <script src="https://unpkg.com/vue@2.6.12/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="vue-root">
+            
+            <h1><p class="logo"> JUMB<span>WORD</span></p></h1>
+
+            <div class="desc">
+                <p id="desc">
+                    <span><span class="jumb">jumb</span><span class="word">word</span></span> is a one hour build, built by <span><u>vue.js</u></span> and helps you to refresh
+                        your mind by guessing random words.  </span>
+                </p>
+            </div>
+            <p>rearrange the word in the box</p>
+        
+            <h3>{{jumbled}}</h3> 
+            <input type="text" v-model = "random_input">
+            <div v-if = "randomize.toUpperCase() == random_input.toUpperCase()  "> 
+                <p class="right p" ><i class="fa fa-check" aria-hidden="true"></i> {{random_input}}</p>
+                
+            </div>
+            <p class="wrong p" v-else>{{random_input}} </p>
+
+            <button id="ansrbtn" @click = "showAnswer">Show Me The Answer</button>
+            <!-- <h3>{{answer.toUpperCase()}}</h3> -->
+        </div>
+    
+        <script src="app.js"></script>
+    </body>
+</html>
